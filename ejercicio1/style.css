@@ -1,0 +1,52 @@
+#selected {
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  min-height: 20px;
+}
+
+#companies {
+  background-color: darkblue;
+  padding: 10px;
+  min-height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.company {
+  margin: 10px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  background-color: lightblue;
+  padding: 5px;
+  flex: 310px;
+}
+
+.employee {
+  margin: 10px;
+  border: 1px solid blue;
+  background-color: aliceblue;
+  padding: 5px; 
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px 4px darkblue;
+}
+
+.employee h1 {
+  font-size: 1em;
+}
+
+.employee:hover {
+  background-color: lemonchiffon;
+}
+
+img {
+  width: 300px;
+}
+
+.hidden {
+  display: none;
+}

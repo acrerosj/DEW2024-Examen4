@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Companies</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="data/data.js"></script>
+  <script src="ej1.js" defer></script>
+</head>
+<body>
+  <h1>Empleados seleccionados <button onclick="sendMail()">Contactar</button></h1>
+  <div id="selected"></div>
+  <p>
+    Buscar empleado: <input type="text" id="search" oninput="filterEmployees()">
+  </p>
+  <h1>Empresas</h1>
+  <div id="companies">
+
+  </div>
+</body>
+</html>
