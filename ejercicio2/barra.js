@@ -27,6 +27,7 @@ function createMeter() {
 }
 
 function reduceTime(meter, spanCount, idInterval) {
+  console.log(meter.value);
   meter.value--;
   spanCount.textContent = Math.ceil(meter.value / 10);
   if (meter.value ==0 ) {
